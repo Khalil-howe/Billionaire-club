@@ -8,6 +8,127 @@
 </head>
 
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="/mentors.html">Mentors</a></li>
+            <li><a href="purchase.html">Purchase Package</a></li>
+            <li><a href="/signup.html">Sign Up</a></li>
+
+        </ul> 
+    </nav>
+
+
+    <header>
+        <h1 id="top" class="fade-text">SIGN UP FOR PERSONAL SESSIONS</h1>
+    </header>
+
+    <form method="post" name="reservation" data-netlify="true">
+        <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" name="firstName" id="firstName" placeholder="John" required>
+        </div>
+
+
+        <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="lastName" id="lastName" placeholder="Thomas" required>
+        </div>
+
+
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" placeholder="johnthomas@mail.com" required>
+        </div>
+
+
+        <div>
+            <label for="tel">Cell Phone:</label>
+            <input type="tel"  name="tel"   id="tel" placeholder="(777)777-7777"   required> 
+        </div>
+
+
+        <div>
+            <label for="inDate">Check-In Date:</label>
+            <input type="date" name="inDate" id="inDate"    required>
+        </div>
+
+
+        <div>
+            <label for="outDate">Check-Out Date:</label>
+            <input type="date" name="outDate"   id="outDate"    required>
+        </div>
+
+
+        <div>
+            <label for="guest">Number of Guest:</label>
+            <input type="number" max="4" min="1" name="guest"  id="guest" placeholder="1-4" required>
+        </div>
+
+
+        <div>
+            <label for="room">Room Type:</label>
+            <select name="room" id="room" required>
+                <option disabled hidden selected>Choose One</option>
+                <option value="kingLux">King Beds</option>
+                <option value="queenLux">Queen Beds</option>
+                <option value="king">1 King Bed</option>
+                <option value="queen">1 Queen Bed</option>
+            </select>
+        </div>
+
+
+        
+        <div class="radio">
+            <span>Ocean View (additional cost)</span>
+            <label for="view">Yes</label>
+            <input type="radio" name="view" id="yes" value="yes"required>
+            <label for="view">No</label>
+            <input type="radio" name="view" id="no" value="no" required>
+        </div>
+           
+    
+
+        
+
+        <div>
+            <label for="notes">Notes/Request(s):</label>
+            <textarea name="notes" id="notes"></textarea>
+        </div>
+
+        <div>
+            <label for="upload">Vaccination Proof (not required):</label>
+            <input type="file"  id="upload" name="upload">
+        </div>
+
+        <div>
+            <label for="terms">Please check box to agree to terms and policies:</label>
+            <input type="checkbox" id="terms"  name="terms" required>
+        </div>
+
+        <div>
+            <label for="secret">Password:</label>
+            <input type="password"  id="secret" name="secret">
+        </div>
+        
+        <button type="submit">Submit Form</button>
+        <button type="reset">Reset Form</button>
+        
+    </form>
+
+
+
+
+
+
+
+
+
+    <hr>
+    <p>
+        Website created by: Kenroy Howe <br>
+        &copy; 2022 <br>
+    </p>
     
 </body>
 </html>
