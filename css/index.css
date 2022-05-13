@@ -47,12 +47,12 @@ img{
     float:inline-start;
     clear: both;
     max-width: 50%;
-    margin-left: 40%;
+    margin-left: 10%;
     margin-right: 15%;
     margin-bottom: 5%;
     border-radius: 70%;
     box-shadow: 2px 2px .5rem lightblue;
     shape-outside: circle(35%);
-
+    
 
 }
