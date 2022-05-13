@@ -7,17 +7,52 @@ html{
 
 
 nav a{
-    position: sticky;
-    margin-top: auto;
-    left: 50%;
-    display: inline;
-    background-color: blue;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size: larger;
+
+}
+
+nav{
+    background-color:rgb(141, 141, 170) ;
     text-align: center;
 }
+nav li{
+    display: inline;
+}
+
+
+nav a{
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
 
 h1{
-    text-align: center;
     font-family: monospace;
-    text-shadow: 2px 5px 4 red;
+    font-size: 3rem;
+    margin: 6% 0;
+    text-align: center;
+    text-shadow: 3rem 1rem .5rem lightblue;
 }
 
+
+img{
+    float:inline-start;
+    clear: both;
+    max-width: 50%;
+    margin-left: 40%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    border-radius: 70%;
+    box-shadow: 2px 2px .5rem lightblue;
+    shape-outside: circle(35%);
+
+
+}
