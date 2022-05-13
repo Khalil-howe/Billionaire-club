@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Golden Package Sign Up</title>
+    <link rel="stylesheet" href="/css/signup.css">
+
 </head>
 
 <body>
@@ -22,6 +24,15 @@
     <header>
         <h1 id="top" class="fade-text">SIGN UP FOR PERSONAL SESSIONS</h1>
     </header>
+
+    <p>
+        The <strong>Golden Package</strong> includes a one on one session with you and one of the 
+        mentors. You will be summoned to a dinner at the billionaire club's mansion 
+        to sit with the billionaire and dine in fine style. After which you will have the oppertunity 
+        to sit for any how long and ask questions and learn how you can have a permanent seat at the 
+        table too and become your own boss. 
+
+    </p>
 
     <form method="post" name="reservation" data-netlify="true">
         <div>
@@ -48,39 +59,27 @@
         </div>
 
 
-        <div>
-            <label for="inDate">Check-In Date:</label>
-            <input type="date" name="inDate" id="inDate"    required>
-        </div>
+       
+
+
+       
 
 
         <div>
-            <label for="outDate">Check-Out Date:</label>
-            <input type="date" name="outDate"   id="outDate"    required>
-        </div>
-
-
-        <div>
-            <label for="guest">Number of Guest:</label>
-            <input type="number" max="4" min="1" name="guest"  id="guest" placeholder="1-4" required>
-        </div>
-
-
-        <div>
-            <label for="room">Room Type:</label>
+            <label for="room">Mentor:</label>
             <select name="room" id="room" required>
                 <option disabled hidden selected>Choose One</option>
-                <option value="kingLux">King Beds</option>
-                <option value="queenLux">Queen Beds</option>
-                <option value="king">1 King Bed</option>
-                <option value="queen">1 Queen Bed</option>
+                <option value="mentor1">Khalil Howe</option>
+                <option value="mentor2">Grant Cardone</option>
+                <option value="mentor3">Bill Gates</option>
+                <option value="mentor4">Elon Musk</option>
             </select>
         </div>
 
 
         
         <div class="radio">
-            <span>Ocean View (additional cost)</span>
+            <span>Dinner Included (extra cost):</span>
             <label for="view">Yes</label>
             <input type="radio" name="view" id="yes" value="yes"required>
             <label for="view">No</label>
@@ -97,7 +96,7 @@
         </div>
 
         <div>
-            <label for="upload">Vaccination Proof (not required):</label>
+            <label for="upload">Resume (Optional):</label>
             <input type="file"  id="upload" name="upload">
         </div>
 
@@ -106,10 +105,7 @@
             <input type="checkbox" id="terms"  name="terms" required>
         </div>
 
-        <div>
-            <label for="secret">Password:</label>
-            <input type="password"  id="secret" name="secret">
-        </div>
+        
         
         <button type="submit">Submit Form</button>
         <button type="reset">Reset Form</button>
