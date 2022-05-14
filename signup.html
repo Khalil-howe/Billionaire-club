@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div id="plate">
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -36,82 +37,83 @@
 
     <form method="post" name="reservation" data-netlify="true">
         <div>
-            <label for="firstName">First Name:</label>
-            <input type="text" name="firstName" id="firstName" placeholder="John" required>
-        </div>
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="John" required>
+            </div>
 
 
-        <div>
-            <label for="lastName">Last Name:</label>
-            <input type="text" name="lastName" id="lastName" placeholder="Thomas" required>
-        </div>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Thomas" required>
+            </div>
 
 
-        <div>
-            <label for="email">E-mail:</label>
-            <input type="email" name="email" id="email" placeholder="johnthomas@mail.com" required>
-        </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="johnthomas@mail.com" required>
+            </div>
 
 
-        <div>
-            <label for="tel">Cell Phone:</label>
-            <input type="tel"  name="tel"   id="tel" placeholder="(777)777-7777"   required> 
-        </div>
-
-
-       
-
-
-       
-
-
-        <div>
-            <label for="room">Mentor:</label>
-            <select name="room" id="room" required>
-                <option disabled hidden selected>Choose One</option>
-                <option value="mentor1">Khalil Howe</option>
-                <option value="mentor2">Grant Cardone</option>
-                <option value="mentor3">Bill Gates</option>
-                <option value="mentor4">Elon Musk</option>
-            </select>
-        </div>
+            <div>
+                <label for="tel">Cell Phone:</label>
+                <input type="tel"  name="tel"   id="tel" placeholder="(777)777-7777"   required> 
+            </div>
 
 
         
-        <div class="radio">
-            <span>Dinner Included (extra cost):</span>
-            <label for="view">Yes</label>
-            <input type="radio" name="view" id="yes" value="yes"required>
-            <label for="view">No</label>
-            <input type="radio" name="view" id="no" value="no" required>
-        </div>
-           
-    
+
 
         
 
-        <div>
-            <label for="notes">Notes/Request(s):</label>
-            <textarea name="notes" id="notes"></textarea>
-        </div>
 
-        <div>
-            <label for="upload">Resume (Optional):</label>
-            <input type="file"  id="upload" name="upload">
-        </div>
+            <div>
+                <label for="room">Mentor:</label>
+                <select name="room" id="room" required>
+                    <option disabled hidden selected>Choose One</option>
+                    <option value="mentor1">Khalil Howe</option>
+                    <option value="mentor2">Grant Cardone</option>
+                    <option value="mentor3">Bill Gates</option>
+                    <option value="mentor4">Elon Musk</option>
+                </select>
+            </div>
 
-        <div>
-            <label for="terms">Please check box to agree to terms and policies:</label>
-            <input type="checkbox" id="terms"  name="terms" required>
-        </div>
 
+            
+            <div class="radio">
+                <span>Dinner Included (extra cost):</span>
+                <label for="view">Yes</label>
+                <input type="radio" name="view" id="yes" value="yes"required>
+                <label for="view">No</label>
+                <input type="radio" name="view" id="no" value="no" required>
+            </div>
+            
         
-        
-        <button type="submit">Submit Form</button>
-        <button type="reset">Reset Form</button>
-        
+
+            
+
+            <div>
+                <label for="notes">Notes/Request(s):</label>
+                <textarea name="notes" id="notes"></textarea>
+            </div>
+
+            <div>
+                <label for="upload">Resume (Optional):</label>
+                <input type="file"  id="upload" name="upload">
+            </div>
+
+            <div>
+                <label for="terms">Please check box to agree to terms and policies:</label>
+                <input type="checkbox" id="terms"  name="terms" required>
+            </div>
+
+            
+            
+            <button type="submit">Submit Form</button>
+            <button type="reset">Reset Form</button>
+      </div>  
     </form>
-
+    
 
 
 

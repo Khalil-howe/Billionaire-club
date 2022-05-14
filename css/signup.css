@@ -10,16 +10,16 @@ html {
 
 body {
     background-color: rgb(141, 141, 170);
-    background-image: url(/img/carolina-nichitin-KH_bfCm6cs4-unsplash\ \(1\).jpg);
+    background-image: url(https://wallpapercave.com/wp/wp8468490.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment:scroll;
 }
 
-#wrapper {
+#plate {
     width: 60%;
-    background-color: rgb(21, 29, 59, 0.6); 
+    background-color: rgb(32, 83, 117, 0.9); 
     color: rgb(255, 209, 36);  
     padding: 2rem;
     border-radius: 2rem; 
