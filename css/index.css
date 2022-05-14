@@ -39,7 +39,7 @@ h1{
     font-size: 3rem;
     margin: 6% 0;
     text-align: center;
-    text-shadow: 3rem 1rem .1rem lightblue;
+    text-shadow: .2rem .4rem .1rem lightblue;
 }
 
 
@@ -53,6 +53,44 @@ img{
     border-radius: 70%;
     box-shadow: 2px 2px .5rem lightblue;
     shape-outside: circle(35%);
-    
+}
 
+
+nav{
+    background-color:rgb(141, 141, 170) ;
+    text-align: center;
+}
+nav li{
+    display: inline;
+}
+
+
+nav a{
+    padding: 20px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+
+nav a{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size: larger;
+}
+
+nav a:visited{
+    background-color: aliceblue;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #bb1b47;
+}
+
+nav a:active{
+    color: yellow;
 }
