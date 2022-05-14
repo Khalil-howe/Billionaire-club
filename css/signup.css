@@ -34,11 +34,11 @@ h1{
 }
 h1::before
 {
-    content:"\1f33b";
+    content:"\1f32b";
 }
 
 h1::after{
-    content:"\1f33b";
+    content:"\1f32b";
 }
 
 nav {
@@ -149,4 +149,8 @@ nav a:hover{
 
 nav a:active{
     color: yellow;
+}
+
+footer{
+color: #6bbb1b;
 }
